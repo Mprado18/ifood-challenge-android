@@ -1,0 +1,54 @@
+# Complementa a configuração padrão do detekt (buildUponDefaultConfig = true).
+build:
+  maxIssues: 0
+
+complexity:
+  LongMethod:
+    ignoreAnnotated: ['Composable']
+  LongParameterList:
+    functionThreshold: 8
+    constructorThreshold: 8
+    ignoreAnnotated: ['Composable']
+    excludes: ['**/core/testing/**']
+  CyclomaticComplexMethod:
+    ignoreAnnotated: ['Composable']
+  TooManyFunctions:
+    ignoreAnnotated: ['Composable']
+    thresholdInClasses: 15
+    thresholdInFiles: 15
+
+naming:
+  MatchingDeclarationName:
+    active: false
+  PackageNaming:
+    packagePattern: '[a-z]+(\.[a-z][A-Za-z0-9_]*)*'
+  FunctionNaming:
+    ignoreAnnotated: ['Composable']
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreAnnotation: true
+    ignoreNamedArgument: true
+    ignoreExtensionFunctions: true
+    ignoreNumbers: ['-1', '0', '1', '2', '4', '60', '100', '401', '403', '429', '500', '599']
+    excludes: ['**/test/**', '**/androidTest/**', '**/theme/**', '**/core/testing/**']
+  MaxLineLength:
+    maxLineLength: 140
+  ReturnCount:
+    max: 3
+  UnusedPrivateMember:
+    ignoreAnnotated: ['Preview']
+
+Compose:
+  CompositionLocalAllowlist:
+    allowedCompositionLocals: LocalDimens
+  ComposableNaming:
+    active: true
+  ModifierMissing:
+    active: false
+  ViewModelForwarding:
+    active: false
