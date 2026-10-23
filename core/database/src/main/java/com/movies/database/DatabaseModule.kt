@@ -2,11 +2,11 @@ package com.movies.database
 
 import android.content.Context
 import androidx.room.Room
-import com.project.movies.core.database.dao.DetailDao
-import com.project.movies.core.database.dao.FavoriteDao
-import com.project.movies.core.database.dao.GenreDao
-import com.project.movies.core.database.dao.ListDao
-import com.project.movies.core.database.dao.MediaDao
+import com.movies.database.dao.DetailDao
+import com.movies.database.dao.FavoriteDao
+import com.movies.database.dao.GenreDao
+import com.movies.database.dao.ListDao
+import com.movies.database.dao.MediaDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
