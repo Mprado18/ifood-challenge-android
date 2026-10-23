@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.kover)
     alias(libs.plugins.ktlint) apply false
     alias(libs.plugins.detekt) apply false
+    alias(libs.plugins.android.library) apply false
 }
 
 dependencies {
