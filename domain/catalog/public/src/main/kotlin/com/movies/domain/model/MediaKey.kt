@@ -1,4 +1,4 @@
-package com.movies.public.model
+package com.movies.domain.model
 
 /** Identidade de uma mídia; filme e série com o mesmo id continuam distintos. */
 data class MediaKey(
