@@ -3,7 +3,7 @@ package com.movies.database.dao
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Upsert
-import com.project.movies.core.database.entity.GenreEntity
+import com.movies.database.entity.GenreEntity
 import kotlinx.coroutines.flow.Flow
 
 // DAO Room com as consultas de genre.

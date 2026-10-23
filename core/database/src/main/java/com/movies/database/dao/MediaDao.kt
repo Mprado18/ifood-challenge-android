@@ -4,7 +4,7 @@ import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Upsert
-import com.project.movies.core.database.entity.MediaEntity
+import com.movies.database.entity.MediaEntity
 import kotlinx.coroutines.flow.Flow
 
 // DAO Room com as consultas de media.
