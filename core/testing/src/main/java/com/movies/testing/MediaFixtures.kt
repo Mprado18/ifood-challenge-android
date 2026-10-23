@@ -1,11 +1,11 @@
 package com.movies.testing
 
-import com.movies.public.model.CastMember
-import com.movies.public.model.Genre
-import com.movies.public.model.MediaDetail
-import com.movies.public.model.MediaKey
-import com.movies.public.model.MediaSummary
-import com.movies.public.model.MediaType
+import com.movies.domain.model.CastMember
+import com.movies.domain.model.Genre
+import com.movies.domain.model.MediaDetail
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaSummary
+import com.movies.domain.model.MediaType
 
 fun mediaSummary(
     id: Int = 1,

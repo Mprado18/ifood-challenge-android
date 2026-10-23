@@ -1,4 +1,4 @@
-package com.movies.public.error
+package com.movies.domain.error
 
 sealed class CatalogException(message: String, cause: Throwable? = null) : Exception(message, cause) {
     class Network(cause: Throwable) : CatalogException("Falha de rede", cause)

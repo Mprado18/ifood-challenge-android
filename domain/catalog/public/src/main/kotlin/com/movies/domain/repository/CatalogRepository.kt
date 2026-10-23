@@ -1,9 +1,9 @@
-package com.movies.public.repository
+package com.movies.domain.repository
 
 import androidx.paging.PagingData
-import com.movies.public.model.Category
-import com.movies.public.model.Genre
-import com.movies.public.model.MediaSummary
+import com.movies.domain.model.Category
+import com.movies.domain.model.Genre
+import com.movies.domain.model.MediaSummary
 import kotlinx.coroutines.flow.Flow
 
 interface CatalogRepository {

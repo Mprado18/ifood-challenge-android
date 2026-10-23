@@ -1,7 +1,7 @@
-package com.movies.public.repository
+package com.movies.domain.repository
 
-import com.movies.public.model.MediaKey
-import com.movies.public.model.MediaSummary
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaSummary
 import kotlinx.coroutines.flow.Flow
 
 interface FavoriteRepository {

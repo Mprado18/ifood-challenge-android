@@ -1,4 +1,4 @@
-package com.movies.public.model
+package com.movies.domain.model
 
 data class MediaSummary(
     val key: MediaKey,

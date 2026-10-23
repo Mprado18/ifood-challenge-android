@@ -1,4 +1,4 @@
-package com.movies.public.error
+package com.movies.domain.error
 
 /** Mensagem em pt-BR adequada para exibição ao usuário. */
 fun Throwable.toUserMessage(): String = when (this) {

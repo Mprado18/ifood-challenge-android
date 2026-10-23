@@ -1,4 +1,4 @@
-package com.movies.public.model
+package com.movies.domain.model
 
 enum class MediaType(val apiValue: String) {
     MOVIE("movie"),

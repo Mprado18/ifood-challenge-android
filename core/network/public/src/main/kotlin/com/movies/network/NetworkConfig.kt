@@ -1,4 +1,4 @@
-package com.movies.public
+package com.movies.network
 
 // Configuração de rede (URL base, token e flags) fornecida pelo app.
 

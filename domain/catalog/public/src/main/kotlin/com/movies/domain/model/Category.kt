@@ -1,4 +1,4 @@
-package com.movies.public.model
+package com.movies.domain.model
 
 enum class Category(val mediaType: MediaType) {
     POPULAR_MOVIES(MediaType.MOVIE),

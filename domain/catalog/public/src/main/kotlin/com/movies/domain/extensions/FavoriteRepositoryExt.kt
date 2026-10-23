@@ -1,8 +1,8 @@
-package com.movies.public.extensions
+package com.movies.domain.extensions
 
-import com.movies.public.model.MediaKey
-import com.movies.public.model.MediaSummary
-import com.movies.public.repository.FavoriteRepository
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaSummary
+import com.movies.domain.repository.FavoriteRepository
 
 /** Inverte o estado de favorito de [media] com base nas chaves favoritas já conhecidas pela tela. */
 suspend fun FavoriteRepository.toggle(

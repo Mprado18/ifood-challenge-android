@@ -1,6 +1,6 @@
-package com.movies.public.repository
+package com.movies.domain.repository
 
-import com.movies.public.model.Genre
+import com.movies.domain.model.Genre
 import kotlinx.coroutines.flow.Flow
 
 interface GenreRepository {
