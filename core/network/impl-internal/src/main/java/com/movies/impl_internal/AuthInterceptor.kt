@@ -1,6 +1,6 @@
 package com.movies.impl_internal
 
-import com.movies.public.NetworkConfig
+import com.movies.network.NetworkConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 

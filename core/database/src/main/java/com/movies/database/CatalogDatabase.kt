@@ -2,17 +2,17 @@ package com.movies.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.project.movies.core.database.dao.DetailDao
-import com.project.movies.core.database.dao.FavoriteDao
-import com.project.movies.core.database.dao.GenreDao
-import com.project.movies.core.database.dao.ListDao
-import com.project.movies.core.database.dao.MediaDao
-import com.project.movies.core.database.entity.DetailEntity
-import com.project.movies.core.database.entity.FavoriteEntity
-import com.project.movies.core.database.entity.GenreEntity
-import com.project.movies.core.database.entity.ListItemEntity
-import com.project.movies.core.database.entity.MediaEntity
-import com.project.movies.core.database.entity.RemoteKeyEntity
+import com.movies.database.dao.DetailDao
+import com.movies.database.dao.FavoriteDao
+import com.movies.database.dao.GenreDao
+import com.movies.database.dao.ListDao
+import com.movies.database.dao.MediaDao
+import com.movies.database.entity.DetailEntity
+import com.movies.database.entity.FavoriteEntity
+import com.movies.database.entity.GenreEntity
+import com.movies.database.entity.ListItemEntity
+import com.movies.database.entity.MediaEntity
+import com.movies.database.entity.RemoteKeyEntity
 
 @Database(
     entities = [

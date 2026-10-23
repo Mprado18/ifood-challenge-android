@@ -1,13 +1,12 @@
 package com.movies.testing
 
-import com.project.movies.domain.catalog.model.CastMember
-import com.project.movies.domain.catalog.model.Genre
-import com.project.movies.domain.catalog.model.MediaDetail
-import com.project.movies.domain.catalog.model.MediaKey
-import com.project.movies.domain.catalog.model.MediaSummary
-import com.project.movies.domain.catalog.model.MediaType
+import com.movies.domain.model.CastMember
+import com.movies.domain.model.Genre
+import com.movies.domain.model.MediaDetail
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaSummary
+import com.movies.domain.model.MediaType
 
-// Fixture de MediaSummary para testes.
 fun mediaSummary(
     id: Int = 1,
     type: MediaType = MediaType.MOVIE,

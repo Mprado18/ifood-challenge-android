@@ -1,7 +1,7 @@
 package com.movies.impl_internal.di
 
 import com.movies.impl_internal.RetrofitFactory
-import com.movies.public.NetworkConfig
+import com.movies.network.NetworkConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

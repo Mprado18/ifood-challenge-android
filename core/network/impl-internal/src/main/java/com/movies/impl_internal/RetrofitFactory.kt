@@ -1,6 +1,6 @@
 package com.movies.impl_internal
 
-import com.movies.public.NetworkConfig
+import com.movies.network.NetworkConfig
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
