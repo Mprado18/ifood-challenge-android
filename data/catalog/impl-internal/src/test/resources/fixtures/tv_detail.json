@@ -1,0 +1,30 @@
+{
+    "id": 1399,
+    "name": "Game of Thrones",
+    "overview": "Sete reinos.",
+    "poster_path": "/got.jpg",
+    "backdrop_path": "/gotb.jpg",
+    "first_air_date": "2011-04-17",
+    "vote_average": 8.4,
+    "vote_count": 23000,
+    "number_of_seasons": 8,
+    "number_of_episodes": 73,
+    "tagline": "",
+    "status": "Ended",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "credits": {
+        "cast": [
+            {
+                "id": 9,
+                "name": "Emilia Clarke",
+                "character": "Daenerys",
+                "profile_path": "/e.jpg"
+            }
+        ]
+    }
+}

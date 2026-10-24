@@ -1,0 +1,38 @@
+{
+    "page": 1,
+    "total_pages": 1,
+    "results": [
+        {
+            "id": 11,
+            "media_type": "movie",
+            "title": "Star Wars",
+            "overview": "x",
+            "poster_path": "/p.jpg",
+            "genre_ids": [
+                12
+            ],
+            "release_date": "1977-05-25",
+            "vote_average": 8.2,
+            "vote_count": 10
+        },
+        {
+            "id": 11,
+            "media_type": "tv",
+            "name": "Série com mesmo id",
+            "overview": "y",
+            "genre_ids": [
+                18
+            ],
+            "first_air_date": "2020-01-01",
+            "vote_average": 7.0,
+            "vote_count": 5
+        },
+        {
+            "id": 500,
+            "media_type": "person",
+            "name": "Alguém",
+            "known_for_department": "Acting",
+            "profile_path": "/x.jpg"
+        }
+    ]
+}
