@@ -1,0 +1,13 @@
+<resources>
+    <string name="home_title">Descubra</string>
+    <string name="home_search_hint">Buscar filmes e séries</string>
+    <string name="home_search_clear">Limpar</string>
+    <string name="home_search_description">Campo de busca</string>
+    <string name="home_tmdb_notice">Este produto usa a API do TMDB, mas não é endossado nem certificado pelo TMDB.</string>
+    <string name="home_grid_empty_title">Nada por aqui</string>
+    <string name="home_grid_empty_message">Nenhum título encontrado.</string>
+    <string name="category_popular_movies">Filmes populares</string>
+    <string name="category_now_playing_movies">Filmes em cartaz</string>
+    <string name="category_popular_tv">Séries populares</string>
+    <string name="category_top_rated_tv">Séries mais bem avaliadas</string>
+</resources>

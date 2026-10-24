@@ -3,3 +3,7 @@ dependencies {
     implementation(project(":feature:home:public"))
     implementation(project(":feature:detail:public"))
 }
+
+tasks.withType<org.gradle.api.tasks.testing.Test>().configureEach {
+    jvmArgs("--add-exports=java.base/jdk.internal.access=ALL-UNNAMED")
+}
