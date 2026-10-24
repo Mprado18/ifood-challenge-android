@@ -1,6 +1,5 @@
 package com.movies.impl_internal.support
 
-// Gera o JSON de uma página de filmes para o servidor falso.
 /** Página de filmes populares no formato JSON do TMDB. */
 fun moviePageJson(page: Int, totalPages: Int, ids: List<Int>, genreId: Int = 28) =
     """{"page":$page,"total_pages":$totalPages,"results":[${

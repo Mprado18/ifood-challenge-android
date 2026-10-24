@@ -22,7 +22,6 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import org.junit.rules.ExternalResource
 
-// Regra JUnit de apoio aos testes: catalog graph.
 class CatalogGraphRule(
     private val tmdb: TmdbServerRule,
 ) : ExternalResource() {

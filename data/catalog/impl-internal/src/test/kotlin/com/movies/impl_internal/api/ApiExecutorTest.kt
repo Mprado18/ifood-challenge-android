@@ -12,7 +12,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 
-// Testes unitários de api executor.
 class ApiExecutorTest {
     @get:Rule
     val tmdb = TmdbServerRule()

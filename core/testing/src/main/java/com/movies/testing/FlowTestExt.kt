@@ -7,7 +7,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 
-// Coleta um Flow em background durante o teste e devolve os valores emitidos.
 /** Coleta [flow] em background e devolve a lista que vai sendo preenchida (ex.: efeitos da ViewModel). */
 @OptIn(ExperimentalCoroutinesApi::class)
 fun <T> TestScope.collectInBackground(flow: Flow<T>): List<T> {

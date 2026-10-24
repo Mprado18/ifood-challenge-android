@@ -16,7 +16,6 @@ import androidx.compose.ui.draw.clip
 import com.movies.designsystem.components.loading.PULSE_MILLIS
 import com.movies.designsystem.components.loading.PULSE_MIN_ALPHA
 
-// Composable skeleton box.
 @Composable
 fun SkeletonBox(modifier: Modifier = Modifier) {
     val transition = rememberInfiniteTransition(label = "skeleton")

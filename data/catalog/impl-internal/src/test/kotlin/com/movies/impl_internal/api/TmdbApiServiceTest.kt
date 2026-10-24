@@ -9,7 +9,6 @@ import org.junit.Assert.assertNull
 import org.junit.Rule
 import org.junit.Test
 
-// Testes unitários de tmdb api service.
 class TmdbApiServiceTest {
     @get:Rule
     val tmdb = TmdbServerRule()

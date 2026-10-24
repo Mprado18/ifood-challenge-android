@@ -17,7 +17,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-// Implementação da fonte de dados local (Room) de detail.
 internal class DetailLocalDataSourceImpl @Inject constructor(
     private val detailDao: DetailDao,
     private val mediaDao: MediaDao,

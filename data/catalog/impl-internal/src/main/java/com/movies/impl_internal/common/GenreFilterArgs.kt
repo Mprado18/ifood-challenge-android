@@ -5,7 +5,6 @@ import com.movies.domain.model.MediaType
 
 private const val NO_GENRE_ID = -1
 
-// Argumentos normalizados do filtro de gênero para consulta no DAO.
 internal class GenreFilterArgs(
     val filtered: Int,
     val movie: Int,

@@ -16,20 +16,17 @@ import org.junit.rules.ExternalResource
 import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
 
-// Stub de apoio aos testes: network config.
 class NetworkConfigStub(
     override val baseUrl: String,
     override val bearerToken: String = "token-fake",
 ) : NetworkConfig
 
-// Stub de apoio aos testes: dispatchers.
 object DispatchersStub : DispatcherProvider {
     override val main: CoroutineDispatcher = Dispatchers.Unconfined
     override val io: CoroutineDispatcher = Dispatchers.Unconfined
     override val default: CoroutineDispatcher = Dispatchers.Unconfined
 }
 
-// Regra JUnit de apoio aos testes: tmdb server.
 class TmdbServerRule : ExternalResource() {
     val server = MockWebServer()
     private val routes = mutableMapOf<String, () -> MockResponse>()

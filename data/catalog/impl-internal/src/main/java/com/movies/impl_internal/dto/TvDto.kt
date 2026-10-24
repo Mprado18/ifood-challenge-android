@@ -3,7 +3,6 @@ package com.movies.impl_internal.dto
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
-// DTO da resposta da API para tv.
 @Serializable
 internal data class TvDto(
     @SerialName("id") val id: Int,

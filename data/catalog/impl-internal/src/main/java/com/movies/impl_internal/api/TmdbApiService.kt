@@ -11,7 +11,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-// Interface Retrofit com os endpoints da API do TMDB.
 internal interface TmdbApiService {
     @GET("3/movie/popular")
     suspend fun popularMovies(

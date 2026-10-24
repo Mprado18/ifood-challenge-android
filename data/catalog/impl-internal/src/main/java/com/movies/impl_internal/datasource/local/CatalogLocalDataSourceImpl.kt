@@ -18,7 +18,6 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 private const val PREVIEW_SIZE = 20
-// Posição = página * stride + índice na página, mantendo a ordem da API entre páginas.
 private const val PAGE_ORDER_STRIDE = 1000
 private const val CACHE_TTL_MS = 30 * 60 * 1000L
 

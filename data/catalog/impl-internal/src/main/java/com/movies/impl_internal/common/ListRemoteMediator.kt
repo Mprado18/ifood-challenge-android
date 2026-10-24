@@ -8,7 +8,6 @@ import com.movies.database.entity.MediaEntity
 import com.movies.impl_internal.datasource.local.CatalogLocalDataSource
 import kotlinx.coroutines.CancellationException
 
-// RemoteMediator do Paging que busca páginas da API e grava no banco.
 @OptIn(ExperimentalPagingApi::class)
 internal class ListRemoteMediator(
     private val scope: String,

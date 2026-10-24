@@ -11,7 +11,7 @@ App Android nativo que consome a API do [TMDB](https://www.themoviedb.org/) para
 
 ### App em funcionamento
 
-[▶ Assistir ao vídeo do app](docs/media/app.mp4)
+[▶ Assistir ao vídeo do app](docs/media/movies-app-test.mp4)
 
 ## Como testar
 
@@ -121,7 +121,7 @@ Setas tracejadas: o `app` só enxerga as implementações em tempo de execução
 
 ### Fluxo de dados (offline-first)
 
-[▶ Assistir ao vídeo do offline-first em ação](docs/media/offline-first.mp4)
+[▶ Assistir ao vídeo do offline-first em ação](docs/media/offline-firs-test.mp4)
 
 ```
  UI (Compose)  --Action-->  ViewModel  --State/Effect-->  UI
@@ -188,12 +188,8 @@ Stack: Kotlin, Jetpack Compose, Material 3, Hilt, Retrofit + kotlinx.serializati
 
 ## Limitações conhecidas
 
-- O app ainda não foi validado em device/emulador com o TMDB real (os testes usam MockWebServer).
 - Conteúdo nunca aberto online não existe offline; o elenco só aparece offline após abrir o título online.
-- Sem estratégia de migração do Room (schema na versão 1).
 - Mensagens de erro do domain (`toUserMessage()`) ainda são texto fixo.
-- O token embarcado no APK não é um segredo inviolável.
 - O filtro de gênero local com paginação pode buscar várias páginas até achar resultados.
-- Pontos de melhoria por classe, com trade-offs: [docs/CLASSES.md](docs/CLASSES.md).
 
 Dados fornecidos por TMDB. Este produto usa a API do TMDB, mas não é endossado nem certificado pelo TMDB.

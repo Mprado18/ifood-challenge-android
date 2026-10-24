@@ -6,7 +6,6 @@ import androidx.room.Upsert
 import com.movies.database.entity.DetailEntity
 import kotlinx.coroutines.flow.Flow
 
-// DAO Room com as consultas de detail.
 @Dao
 interface DetailDao {
     @Query("SELECT * FROM detail WHERE mediaKey = :key")

@@ -8,7 +8,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalContext
 
-// Composable movies theme.
 @Composable
 fun MoviesTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),

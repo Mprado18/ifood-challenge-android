@@ -10,7 +10,6 @@ import kotlinx.coroutines.test.setMain
 import org.junit.rules.TestWatcher
 import org.junit.runner.Description
 
-// Regra JUnit de apoio aos testes: main dispatcher.
 @OptIn(ExperimentalCoroutinesApi::class)
 class MainDispatcherRule(val dispatcher: TestDispatcher = StandardTestDispatcher()) : TestWatcher() {
     override fun starting(description: Description) { Dispatchers.setMain(dispatcher) }

@@ -9,7 +9,6 @@ import com.movies.domain.repository.DetailRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-// Implementação do repositório de detail, combinando fontes locais e remotas.
 internal class DetailRepositoryImpl @Inject constructor(
     private val remote: DetailRemoteDataSource,
     private val local: DetailLocalDataSource,

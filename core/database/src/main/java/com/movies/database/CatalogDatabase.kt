@@ -26,7 +26,6 @@ import com.movies.database.entity.RemoteKeyEntity
     version = 1,
     exportSchema = true,
 )
-// Banco Room do catálogo: mídias, listas, favoritos, gêneros e detalhes.
 abstract class CatalogDatabase : RoomDatabase() {
     abstract fun mediaDao(): MediaDao
     abstract fun listDao(): ListDao

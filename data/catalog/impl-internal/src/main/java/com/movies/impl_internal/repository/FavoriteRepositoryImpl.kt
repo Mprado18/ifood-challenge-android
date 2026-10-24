@@ -7,7 +7,6 @@ import com.movies.domain.repository.FavoriteRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-// Implementação do repositório de favorite, combinando fontes locais e remotas.
 internal class FavoriteRepositoryImpl @Inject constructor(
     private val local: FavoriteLocalDataSource,
 ) : FavoriteRepository {

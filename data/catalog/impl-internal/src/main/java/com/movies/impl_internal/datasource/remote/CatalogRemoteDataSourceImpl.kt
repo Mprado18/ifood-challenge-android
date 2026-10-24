@@ -9,7 +9,6 @@ import com.movies.impl_internal.common.RemotePage
 import com.movies.domain.model.Category
 import javax.inject.Inject
 
-// Implementação da fonte de dados remota (API TMDB) de catalog.
 internal class CatalogRemoteDataSourceImpl @Inject constructor(
     private val api: TmdbApiService,
     private val executor: ApiExecutor,

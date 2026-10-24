@@ -6,7 +6,6 @@ import com.movies.impl_internal.common.RemotePage
 import com.movies.domain.model.Genre
 import kotlinx.coroutines.flow.Flow
 
-// Contrato da fonte de dados local de catalog.
 internal interface CatalogLocalDataSource {
     fun observePreview(
         scope: String,

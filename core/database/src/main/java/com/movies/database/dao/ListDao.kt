@@ -9,7 +9,6 @@ import com.movies.database.entity.MediaEntity
 import com.movies.database.entity.RemoteKeyEntity
 import kotlinx.coroutines.flow.Flow
 
-// DAO Room com as consultas de list.
 @Dao
 interface ListDao {
     @Query(

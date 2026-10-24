@@ -7,7 +7,6 @@ import com.movies.database.entity.FavoriteEntity
 import com.movies.database.entity.MediaEntity
 import kotlinx.coroutines.flow.Flow
 
-// DAO Room com as consultas de favorite.
 @Dao
 interface FavoriteDao {
     @Query(

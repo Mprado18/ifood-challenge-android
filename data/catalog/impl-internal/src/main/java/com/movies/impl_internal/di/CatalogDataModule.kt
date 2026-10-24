@@ -31,7 +31,6 @@ import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import javax.inject.Singleton
 
-// Módulo Hilt que provê as dependências de catalog data.
 @Module
 @InstallIn(SingletonComponent::class)
 internal abstract class CatalogDataModule {

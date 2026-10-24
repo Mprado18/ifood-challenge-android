@@ -15,7 +15,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
-// Testes unitários de favorite.
 @RunWith(RobolectricTestRunner::class)
 class FavoriteRepositoryImplTest {
     @get:Rule

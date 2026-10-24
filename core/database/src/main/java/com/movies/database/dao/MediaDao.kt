@@ -7,7 +7,6 @@ import androidx.room.Upsert
 import com.movies.database.entity.MediaEntity
 import kotlinx.coroutines.flow.Flow
 
-// DAO Room com as consultas de media.
 @Dao
 interface MediaDao {
     @Upsert

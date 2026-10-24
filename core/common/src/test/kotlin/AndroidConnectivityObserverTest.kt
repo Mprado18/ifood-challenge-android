@@ -12,7 +12,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
-// Testes unitários de android connectivity observer.
 @RunWith(RobolectricTestRunner::class)
 class AndroidConnectivityObserverTest {
     private val context = ApplicationProvider.getApplicationContext<Context>()

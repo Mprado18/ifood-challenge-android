@@ -4,7 +4,6 @@ import com.movies.network.NetworkConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 
-// Interceptor OkHttp de auth.
 internal class AuthInterceptor(
     private val config: NetworkConfig,
 ) : Interceptor {
