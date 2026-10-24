@@ -1,7 +1,7 @@
 package com.movies.impl_internal.repository
 
-import com.project.movies.data.catalog.internal.support.CatalogEnvironment
-import com.project.movies.domain.catalog.model.MediaType
+import com.movies.domain.model.MediaType
+import com.movies.impl_internal.support.CatalogEnvironment
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
@@ -14,7 +14,8 @@ import org.robolectric.RobolectricTestRunner
 // Testes unitários de genre.
 @RunWith(RobolectricTestRunner::class)
 class GenreRepositoryImplTest {
-    @get:Rule val environment = CatalogEnvironment()
+    @get:Rule
+    val environment = CatalogEnvironment()
     private val tmdb get() = environment.tmdb
     private val graph get() = environment.graph
 

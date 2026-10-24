@@ -1,9 +1,9 @@
 package com.movies.impl_internal.api
 
+import com.movies.domain.error.CatalogException
 import com.movies.impl_internal.support.DispatchersStub
 import com.movies.impl_internal.support.NetworkConfigStub
 import com.movies.impl_internal.support.TmdbServerRule
-import com.movies.domain.error.CatalogException
 import kotlinx.coroutines.test.runTest
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.SocketPolicy

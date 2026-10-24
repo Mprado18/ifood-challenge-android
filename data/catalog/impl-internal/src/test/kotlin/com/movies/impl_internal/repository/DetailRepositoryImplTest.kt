@@ -1,10 +1,10 @@
 package com.movies.impl_internal.repository
 
-import com.project.movies.data.catalog.internal.support.CatalogEnvironment
-import com.project.movies.data.catalog.internal.support.fixture
-import com.project.movies.domain.catalog.error.CatalogException
-import com.project.movies.domain.catalog.model.MediaKey
-import com.project.movies.domain.catalog.model.MediaType
+import com.movies.domain.error.CatalogException
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaType
+import com.movies.impl_internal.support.CatalogEnvironment
+import com.movies.impl_internal.support.fixture
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
@@ -19,7 +19,8 @@ import org.robolectric.RobolectricTestRunner
 // Testes unitários de detail.
 @RunWith(RobolectricTestRunner::class)
 class DetailRepositoryImplTest {
-    @get:Rule val environment = CatalogEnvironment()
+    @get:Rule
+    val environment = CatalogEnvironment()
     private val tmdb get() = environment.tmdb
     private val graph get() = environment.graph
 

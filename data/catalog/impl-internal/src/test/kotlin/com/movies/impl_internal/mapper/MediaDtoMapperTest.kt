@@ -1,5 +1,7 @@
 package com.movies.impl_internal.mapper
 
+import com.movies.domain.model.MediaKey
+import com.movies.domain.model.MediaType
 import com.movies.impl_internal.dto.MovieDetailDto
 import com.movies.impl_internal.dto.MovieDto
 import com.movies.impl_internal.dto.PageResponseDto
@@ -7,8 +9,6 @@ import com.movies.impl_internal.dto.SearchItemDto
 import com.movies.impl_internal.dto.TvDetailDto
 import com.movies.impl_internal.dto.TvDto
 import com.movies.impl_internal.support.fixture
-import com.movies.domain.model.MediaKey
-import com.movies.domain.model.MediaType
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
