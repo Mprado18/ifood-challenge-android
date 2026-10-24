@@ -11,7 +11,6 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import javax.inject.Singleton
 
-// Módulo Hilt que provê as dependências de network.
 @Module
 @InstallIn(SingletonComponent::class)
 internal object NetworkModule {

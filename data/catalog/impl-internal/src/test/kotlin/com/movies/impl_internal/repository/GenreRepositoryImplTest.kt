@@ -11,7 +11,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
-// Testes unitários de genre.
 @RunWith(RobolectricTestRunner::class)
 class GenreRepositoryImplTest {
     @get:Rule

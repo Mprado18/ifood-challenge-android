@@ -4,7 +4,6 @@ import com.movies.domain.model.MediaKey
 import com.movies.domain.model.MediaSummary
 import kotlinx.coroutines.flow.Flow
 
-// Contrato da fonte de dados local de favorite.
 internal interface FavoriteLocalDataSource {
     fun observeAll(): Flow<List<MediaSummary>>
 

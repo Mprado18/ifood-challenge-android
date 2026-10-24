@@ -12,7 +12,6 @@ import androidx.compose.ui.layout.ContentScale
 import coil3.compose.SubcomposeAsyncImage
 import com.movies.designsystem.components.loading.skeleton.SkeletonBox
 
-// Composable poster image.
 @Composable
 fun PosterImage(url: String?, description: String?, modifier: Modifier = Modifier) {
     if (url == null) {

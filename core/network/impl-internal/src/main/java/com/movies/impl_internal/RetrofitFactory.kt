@@ -8,7 +8,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import java.util.concurrent.TimeUnit
 
-// Fábrica de retrofit.
 internal object RetrofitFactory {
     fun json(): Json =
         Json {

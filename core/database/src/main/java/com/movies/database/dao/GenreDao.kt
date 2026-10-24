@@ -6,7 +6,6 @@ import androidx.room.Upsert
 import com.movies.database.entity.GenreEntity
 import kotlinx.coroutines.flow.Flow
 
-// DAO Room com as consultas de genre.
 @Dao
 interface GenreDao {
     @Query("SELECT * FROM genre ORDER BY name")

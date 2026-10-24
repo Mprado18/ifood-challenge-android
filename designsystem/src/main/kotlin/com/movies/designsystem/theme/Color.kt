@@ -4,7 +4,6 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
 
-// Paleta de cores do design system.
 object MoviesColors {
     val Primary = Color(0xFFB3261E)
     val PrimaryDark = Color(0xFFFFB4AB)

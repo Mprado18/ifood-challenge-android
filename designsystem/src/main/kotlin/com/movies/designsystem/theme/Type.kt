@@ -7,7 +7,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 
-// Helper que cria TextStyle com peso, tamanho e altura de linha.
 private fun textStyle(weight: FontWeight, size: TextUnit, lineHeight: TextUnit) = TextStyle(
     fontFamily = FontFamily.SansSerif,
     fontWeight = weight,

@@ -8,7 +8,6 @@ import com.movies.domain.model.MediaKey
 import com.movies.domain.model.MediaType
 import javax.inject.Inject
 
-// Implementação da fonte de dados remota (API TMDB) de detail.
 internal class DetailRemoteDataSourceImpl @Inject constructor(
     private val api: TmdbApiService,
     private val executor: ApiExecutor,

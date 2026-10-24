@@ -26,7 +26,6 @@ import javax.inject.Inject
 
 private const val PAGE_SIZE = 20
 
-// Implementação do repositório de catalog, combinando fontes locais e remotas.
 @OptIn(ExperimentalPagingApi::class, ExperimentalCoroutinesApi::class)
 internal class CatalogRepositoryImpl @Inject constructor(
     private val remote: CatalogRemoteDataSource,

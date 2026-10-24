@@ -7,7 +7,6 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
-// Espaçamentos e dimensões padrão do design system.
 @Immutable
 data class Dimens(
     val xs: Dp = 4.dp,

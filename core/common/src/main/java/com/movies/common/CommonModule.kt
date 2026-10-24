@@ -8,7 +8,6 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-// Módulo Hilt que provê as dependências de common.
 @Module
 @InstallIn(SingletonComponent::class)
 object CommonModule {

@@ -15,7 +15,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import com.movies.designsystem.theme.dimens
 
-// Composable message state.
 @Composable
 fun MessageState(
     title: String,

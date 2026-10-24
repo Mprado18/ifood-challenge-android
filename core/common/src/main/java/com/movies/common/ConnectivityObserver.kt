@@ -10,13 +10,11 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 
-// Contrato para observar o estado de conectividade do dispositivo.
 interface ConnectivityObserver {
     /** Emite true quando há rede com acesso validado. */
     fun observeOnline(): Flow<Boolean>
 }
 
-// Observa a rede via ConnectivityManager e emite online/offline em Flow.
 class AndroidConnectivityObserver(context: Context) : ConnectivityObserver {
     private val manager = context.getSystemService(ConnectivityManager::class.java)
 

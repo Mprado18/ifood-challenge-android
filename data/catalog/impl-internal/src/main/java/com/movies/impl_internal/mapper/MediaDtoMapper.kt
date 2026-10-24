@@ -22,7 +22,6 @@ private const val POSTER_SIZE = "w342"
 private const val BACKDROP_SIZE = "w780"
 private const val PROFILE_SIZE = "w185"
 
-// Monta a URL completa de imagem a partir do caminho retornado pela API.
 private fun imageUrl(
     size: String,
     path: String?,

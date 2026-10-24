@@ -15,11 +15,9 @@ import kotlinx.serialization.json.Json
 
 private val storeJson = Json { ignoreUnknownKeys = true }
 
-// Representação serializável de gênero guardada no detalhe em cache.
 @Serializable
 private data class StoredGenre(val id: Int, val name: String)
 
-// Representação serializável de elenco guardada no detalhe em cache.
 @Serializable
 private data class StoredCast(
     val id: Int,

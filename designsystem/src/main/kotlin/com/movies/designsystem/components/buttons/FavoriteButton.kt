@@ -17,7 +17,6 @@ import androidx.compose.ui.unit.dp
 import com.movies.designsystem.theme.dimens
 import com.movies.ifood_challenge.designsystem.R
 
-// Composable favorite button.
 @Composable
 fun FavoriteButton(
     isFavorite: Boolean,

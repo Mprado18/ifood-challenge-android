@@ -15,7 +15,6 @@ import com.movies.designsystem.theme.MoviesColors
 import com.movies.designsystem.theme.dimens
 import com.movies.ifood_challenge.designsystem.R
 
-// Composable rating badge.
 @Composable
 fun RatingBadge(rating: Double, modifier: Modifier = Modifier, voteCount: Int? = null) {
     val text = ratingText(rating, voteCount)

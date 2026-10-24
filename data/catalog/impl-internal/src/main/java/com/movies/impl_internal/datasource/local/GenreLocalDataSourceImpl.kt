@@ -12,7 +12,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-// Implementação da fonte de dados local (Room) de genre.
 internal class GenreLocalDataSourceImpl @Inject constructor(
     private val genreDao: GenreDao,
     private val transactions: TransactionRunner,

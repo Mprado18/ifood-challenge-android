@@ -8,7 +8,6 @@ import androidx.room.Index
     primaryKeys = ["scope", "mediaKey"],
     indices = [Index("scope", "position")],
 )
-// Entidade Room que representa list item.
 data class ListItemEntity(
     val scope: String,
     val mediaKey: String,

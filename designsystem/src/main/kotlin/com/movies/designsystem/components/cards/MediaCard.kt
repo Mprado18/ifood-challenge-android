@@ -19,7 +19,6 @@ import com.movies.designsystem.components.image.PosterImage
 import com.movies.designsystem.components.badges.RatingBadge
 import com.movies.designsystem.theme.dimens
 
-// Composable media card.
 @Composable
 fun MediaCard(
     title: String,

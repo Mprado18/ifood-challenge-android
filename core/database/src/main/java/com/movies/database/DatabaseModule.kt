@@ -16,7 +16,6 @@ import javax.inject.Singleton
 
 private const val DATABASE_NAME = "catalog.db"
 
-// Módulo Hilt que provê as dependências de database.
 @Module
 @InstallIn(SingletonComponent::class)
 internal object DatabaseModule {

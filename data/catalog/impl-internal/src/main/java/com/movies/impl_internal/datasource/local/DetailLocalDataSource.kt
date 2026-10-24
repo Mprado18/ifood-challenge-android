@@ -5,7 +5,6 @@ import com.movies.domain.model.MediaKey
 import com.movies.domain.model.MediaSummary
 import kotlinx.coroutines.flow.Flow
 
-// Contrato da fonte de dados local de detail.
 internal interface DetailLocalDataSource {
     fun observeDetail(key: MediaKey): Flow<MediaDetail?>
 

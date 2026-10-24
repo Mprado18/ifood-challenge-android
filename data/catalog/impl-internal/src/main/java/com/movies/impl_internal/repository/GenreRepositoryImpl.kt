@@ -7,7 +7,6 @@ import com.movies.domain.repository.GenreRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-// Implementação do repositório de genre, combinando fontes locais e remotas.
 internal class GenreRepositoryImpl @Inject constructor(
     private val remote: GenreRemoteDataSource,
     private val local: GenreLocalDataSource,

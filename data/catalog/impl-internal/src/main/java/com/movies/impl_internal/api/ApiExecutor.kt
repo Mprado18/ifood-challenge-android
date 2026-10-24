@@ -10,7 +10,6 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-// Executa chamadas da API traduzindo falhas em CatalogException.
 internal class ApiExecutor @Inject constructor(
     private val config: NetworkConfig,
     private val dispatchers: DispatcherProvider,

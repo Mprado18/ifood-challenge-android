@@ -16,7 +16,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-// Implementação da fonte de dados local (Room) de favorite.
 internal class FavoriteLocalDataSourceImpl @Inject constructor(
     private val favoriteDao: FavoriteDao,
     private val mediaDao: MediaDao,
