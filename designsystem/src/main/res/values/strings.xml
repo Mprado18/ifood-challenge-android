@@ -1,0 +1,14 @@
+<resources>
+    <string name="ds_error_title">Não foi possível carregar</string>
+    <string name="ds_retry">Tentar novamente</string>
+    <string name="ds_see_all">Ver todos</string>
+    <string name="ds_back">Voltar</string>
+    <string name="ds_loading">Carregando</string>
+    <string name="ds_offline_banner">Você está offline. Exibindo conteúdo salvo.</string>
+    <string name="ds_rating_description">Nota %1$s</string>
+    <string name="ds_no_rating">Sem nota</string>
+    <string name="ds_favorite_add">Favoritar %1$s</string>
+    <string name="ds_favorite_remove">Remover %1$s dos favoritos</string>
+    <string name="ds_favorited">Favoritado</string>
+    <string name="ds_not_favorited">Não favoritado</string>
+</resources>
