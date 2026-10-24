@@ -28,9 +28,6 @@ android {
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "com.movies.ifood_challenge.HiltTestRunner"
-    }
-
-    defaultConfig {
         buildConfigField("String", "TMDB_TOKEN", "\"${tmdbToken()}\"")
     }
 

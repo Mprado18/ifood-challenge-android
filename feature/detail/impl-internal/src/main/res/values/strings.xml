@@ -1,0 +1,16 @@
+<resources>
+    <string name="detail_synopsis">Sinopse</string>
+    <string name="detail_synopsis_missing">Sinopse não disponível em português.</string>
+    <string name="detail_cast">Elenco</string>
+    <string name="detail_cast_offline">Elenco disponível após abrir este título com internet.</string>
+    <string name="detail_cast_unavailable">Elenco indisponível.</string>
+    <string name="detail_cast_empty">Elenco não informado.</string>
+    <string name="detail_type_movie">Filme</string>
+    <string name="detail_type_tv">Série</string>
+    <string name="detail_runtime">%1$dh %2$dmin</string>
+    <string name="detail_episodes">%1$d episódios</string>
+    <plurals name="detail_seasons">
+        <item quantity="one">%1$d temporada</item>
+        <item quantity="other">%1$d temporadas</item>
+    </plurals>
+</resources>
