@@ -51,19 +51,28 @@ android {
 }
 
 dependencies {
+    // Core
     implementation(project(":core:common"))
+    runtimeOnly(project(":core:database"))
+    runtimeOnly(project(":core:network:impl-internal"))
+    runtimeOnly(project(":data:catalog:impl-internal"))
+
+    // Design System
     implementation(project(":designsystem"))
+
+    // Features public
     implementation(project(":feature:home:public"))
     implementation(project(":feature:favorites:public"))
     implementation(project(":feature:detail:public"))
     implementation(project(":domain:catalog:public"))
-    runtimeOnly(project(":data:catalog:impl-internal"))
     implementation(project(":core:network:public"))
-    runtimeOnly(project(":core:network:impl-internal"))
-    runtimeOnly(project(":core:database"))
+
+    // Feature internal
     runtimeOnly(project(":feature:home:impl-internal"))
     runtimeOnly(project(":feature:favorites:impl-internal"))
     runtimeOnly(project(":feature:detail:impl-internal"))
+
+    // Android
     implementation(libs.androidx.navigation)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
@@ -76,6 +85,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
+    // Test
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     androidTestImplementation(libs.androidx.junit)
