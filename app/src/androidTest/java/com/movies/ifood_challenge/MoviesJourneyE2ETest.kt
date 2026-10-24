@@ -16,14 +16,14 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.RuleChain
 
-// Teste end-to-end da jornada principal do app, usando servidor falso.
 /** E2E no emulador: app real (Hilt, Room, Retrofit) falando com o [TmdbServerStub]. */
 @HiltAndroidTest
 class MoviesJourneyE2ETest {
     private val hilt = HiltAndroidRule(this)
     private val compose = createAndroidComposeRule<MainActivity>()
 
-    @get:Rule val rules: RuleChain = RuleChain.outerRule(hilt).around(compose)
+    @get:Rule
+    val rules: RuleChain = RuleChain.outerRule(hilt).around(compose)
 
     @Before
     fun setUp() {

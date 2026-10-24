@@ -6,12 +6,12 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import kotlin.concurrent.thread
 
-// Stub de apoio aos testes: tmdb server.
 /** TMDB falso para os testes E2E: responde por path e nunca depende de token ou internet. */
 object TmdbServerStub {
     private val server = MockWebServer()
 
-    @Volatile var failEverything = false
+    @Volatile
+    var failEverything = false
 
     val baseUrl: String by lazy {
         var url = ""
