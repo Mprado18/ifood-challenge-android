@@ -5,9 +5,9 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
-import com.project.movies.designsystem.components.MediaCard
-import com.project.movies.designsystem.components.MessageState
-import com.project.movies.designsystem.theme.MoviesTheme
+import com.movies.designsystem.components.cards.MediaCard
+import com.movies.designsystem.components.text.MessageState
+import com.movies.designsystem.theme.MoviesTheme
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
@@ -17,7 +17,8 @@ import org.robolectric.RobolectricTestRunner
 // Testes unitários de components.
 @RunWith(RobolectricTestRunner::class)
 class ComponentsTest {
-    @get:Rule val rule = createComposeRule()
+    @get:Rule
+    val rule = createComposeRule()
 
     @Test
     fun `when favorite is clicked on media card then title is shown and callback is invoked`() {
